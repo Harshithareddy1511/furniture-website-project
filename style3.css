@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    background-color:rgb(236, 236, 236);
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+    
+}
+h2{
+    text-align: center;
+}
+ .categories{
+    display: flex;
+    justify-content: space-around;
+ }
+ .categories div{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 25px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+ }
+.container .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 70%;
+    margin: auto;
+    
+}
+.navbar .navlist{
+    display: flex;
+    gap: 3rem;
+    
+}
+.navbar .logo{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(35, 35, 35);
+}
+
+
+
+
+.text{
+    background-color: black;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.75;
+}
+
+.box{
+    display: flex;
+    position: relative;
+}
+.Product{
+
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ img{
+   width: 330px;
+    height: 492px;
+    margin: 21px;
+    cursor: pointer;
+}
+.front{
+    opacity: 1;
+    position: absolute;
+
+}
+.front:hover{
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.main{
+    position: relative;
+    top: 12vh;
+}
+
+figcaption{
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.part{
+    margin:40px;
+}
+.part ul li{
+    list-style: none;
+    margin: 8px;
+}
+i{
+    padding-right:5px;
+}
+.three input{
+    border: none;
+    background-color: black;
+    color:white;
+    border-bottom: 2px solid silver;
+    border-radius: none;
+    width:300px;
+    padding:10px;
+}
+input:focus{
+    outline: none;
+}
